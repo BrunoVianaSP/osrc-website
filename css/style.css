@@ -60,7 +60,7 @@ body {
 }
 
 .nav {
-    border: 1px solid #009900;
+    border: 1px solid #3E5096;
     border-width: 1px 0;
     list-style: none;
     /* margin: 0; */
@@ -93,7 +93,7 @@ body {
     font-family: 'Dosis-Medium';
     font-size: 1em;
     text-decoration: none;
-    background: #009900;
+    background: #3E5096;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -134,7 +134,7 @@ span.menu {
 }
 
 .top-menu ul li a:hover {
-    color: #009900;
+    color: #3E5096;
 }
 
 .top-menu ul li:nth-child(3) {
@@ -172,13 +172,13 @@ span.menu {
     font-size: 1.1em;
     display: inline-block;
     margin-top: 2.5em;
-    border: 2px solid #009900;
+    border: 2px solid #3E5096;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    background: #009900;
+    background: #3E5096;
 }
 
 .banner-info a:hover {
@@ -193,9 +193,9 @@ label {
 }
 
 
-/*--product--*/
+/*--customer--*/
 
-.product {
+.customer {
     padding: 5em 0;
 }
 
@@ -216,7 +216,7 @@ label {
     margin-bottom: 1.5em;
     padding: 32px 0px;
     background: #fff;
-    border: 2px solid #009900;
+    border: 2px solid #3E5096;
 }
 
 .glyphicon-phone:before,
@@ -248,7 +248,7 @@ label {
     margin-top: 0.7em;
 }
 
-.product-grids {
+.customer-grids {
     margin-top: 3.5em;
 }
 
@@ -264,19 +264,19 @@ label {
 }
 
 .company-right h3,
-.product h3,
+.customer h3,
 .catalog h3,
 .blog h3,
 .map h3,
 .contact h3 {
-    color: #009900;
+    color: #3E5096;
     font-size: 2.5em;
     font-family: 'Dosis-bold';
     text-align: center;
 }
 
 .top-header h3 {
-    color: #009900;
+    color: #3E5096;
     font-size: 1.5em;
     font-family: 'Dosis-bold';
     text-align: center;
@@ -439,7 +439,7 @@ img.img-responsive.glry-img {
 }
 
 .blog-grid h4 a {
-    color: #009900;
+    color: #3E5096;
     font-size: 1.3em;
     text-decoration: none;
     display: inline-block;
@@ -462,7 +462,7 @@ img.img-responsive.glry-img {
 }
 
 a.blogs {
-    color: #009900;
+    color: #3E5096;
     font-size: 1em;
     margin-top: 1.5em;
     display: inline-block;
@@ -547,8 +547,8 @@ a.blogs:hover {
     -moz-border-radius: 5px;
     -o-border-radius: 5px;
     -ms-border-radius: 5px;
-    border: 2px solid #009900;
-    background: #009900;
+    border: 2px solid #3E5096;
+    background: #3E5096;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -557,9 +557,9 @@ a.blogs:hover {
 }
 
 .touch-left form input[type=submit]:hover {
-    border: 2px solid #009900;
+    border: 2px solid #3E5096;
     background: transparent;
-    color: #009900;
+    color: #3E5096;
 }
 
 .touch-right-top:nth-child(1) {
@@ -853,7 +853,7 @@ a i.youtube:hover {
         padding: 39px 12px;
         height: 126px;
         width: 126px;
-        background-color: #009900;
+        background-color: #3E5096;
     }
 }
 
@@ -880,14 +880,14 @@ a i.youtube:hover {
         min-height: 320px;
     }
     .company-right h3,
-    .product h3,
+    .customer h3,
     .catalog h3,
     .blog h3,
     .map h3,
     .contact h3 {
         font-size: 2em;
     }
-    .product {
+    .customer {
         padding: 3em 0;
     }
     .icon-info h4 a {
@@ -1067,7 +1067,7 @@ a i.youtube:hover {
     .grids2 {
         margin-top: 0em;
     }
-    .product-grids {
+    .customer-grids {
         margin-top: 2em;
     }
     .company-left {
@@ -1080,7 +1080,7 @@ a i.youtube:hover {
         width: 100%;
         padding: 2em 1.5em 0 1.5em;
     }
-    .product {
+    .customer {
         padding: 2em 0 1em 0;
     }
     .company {
@@ -1265,13 +1265,13 @@ a i.youtube:hover {
         background-size: cover;
     }
     .company-right h3,
-    .product h3,
+    .customer h3,
     .catalog h3,
     .blog h3,
     .contact h3 {
         font-size: 1.5em;
     }
-    .product-grids {
+    .customer-grids {
         margin-top: 1.5em;
     }
     .company-right {
@@ -1340,13 +1340,13 @@ a i.youtube:hover {
     font-size: 1.1em;
     display: inline-block;
     margin-top: 2.5em;
-    border: 2px solid #009900;
+    border: 2px solid #3E5096;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    background: #009900;
+    background: #3E5096;
 }
 
 .card {
