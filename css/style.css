@@ -148,13 +148,16 @@ span.menu {
 }
 
 .banner-info {
+    padding-top: 20px;
     float: center;
-    width: 44%;
+    width: 80%;
     margin: 13em 0 0 0em;
 }
 
 .banner-info h2 {
-    color: #fff;
+    color: gray;
+    /* color: #7695E7; */
+    /* color: #7695E7; */
     font-size: 3.5em;
     font-family: 'Dosis-Medium';
 }
