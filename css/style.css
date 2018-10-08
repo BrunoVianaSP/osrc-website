@@ -489,7 +489,7 @@ a.blogs:hover {
 .map iframe {
     width: 100%;
     min-height: 400px;
-    margin-top: 2.5em;
+    margin: 2.5em;
 }
 
 
@@ -892,6 +892,9 @@ a i.youtube:hover {
         font-size: 2em;
     }
     .customer {
+        padding: 3em 0;
+    }
+    .map {
         padding: 3em 0;
     }
     .icon-info h4 a {
@@ -1413,7 +1416,7 @@ header.masthead .site-heading {
 
 header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 0;
 }
 
