@@ -5,7 +5,94 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
-body a {
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	padding:0 0;
+	margin:0 0;
+}
+p{
+	padding:0 0;
+	margin:0 0;
+}
+ul{
+	padding:0 0;
+	margin:0 0;
+}
+body{
+	padding:0 0;
+	margin:0 0;
+	font-family:'Open Sans', sans-serif;
+}
+@font-face {
+   font-family: 'Dosis-Regular';
+   src: url(../fonts/Dosis-Regular.ttf) format('truetype');
+}
+@font-face {
+   font-family: 'Dosis-Medium';
+   src: url(../fonts/Dosis-Medium.ttf) format('truetype');
+}
+@font-face {
+   font-family: 'Dosis-Bold';
+   src: url(../fonts/Dosis-Bold.ttf) format('truetype');
+}
+ .logo {
+  position: absolute;
+  left: 45%;
+  top: -96%;
+  z-index: 1;
+}
+.logo h1 a {
+	display: inline-block;
+  color: #fff;
+  font-family: 'Dosis-Medium';
+  font-size: 1em;
+  text-decoration: none;
+  background:#3598DB;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 8px solid #fff;
+  padding: 52px 15px;
+  height: 160px;
+  width: 160px;
+}
+span.menu {
+  display: none;
+}
+ .top-header {
+  margin: 2em 0;
+  text-align: center;
+  position: relative;
+}
+.top-menu ul li {
+  display: inline-block;
+}
+.top-menu{
+	position: relative;
+}
+.top-menu ul li a {
+  font-size: 1.4em;
+  color: #000;
+    padding: 0 2em;
+  text-decoration: none;
+    font-weight: 100;
+	font-family: 'Dosis-Medium';
+}
+.top-menu ul li a:hover{
+	color:#3598db;
+}
+.top-menu ul li:nth-child(3) {
+  margin-right: 13em;
+}
+/* body a {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -58,7 +145,7 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     src: url(../fonts/IBMPlexSans-SemiBold.ttf) format('truetype');
 }
-
+*/
 .nav {
     border: 1px solid #3E5096;
     border-width: 1px 0;
@@ -93,7 +180,7 @@ body {
     font-family: 'Dosis-Medium';
     font-size: 1em;
     text-decoration: none;
-    background: #3E5096;
+    background: rgb(88, 150, 62);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -139,7 +226,7 @@ span.menu {
 
 .top-menu ul li:nth-child(3) {
     margin-right: 0;
-}
+} */
 
 .header {
     background: url(../images/banner.jpg) no-repeat 0px -127px;
