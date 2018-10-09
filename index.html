@@ -29,10 +29,10 @@
       <div id="home" class="top-header">
          <div class="container">
             <div class="row">
-               <div class="col-md-2">
+               <div class="col-md-3">
                   <img src="images/logo.jpg" alt="O seu canal de vendas!" title="O seu canal de vendas" height="50" />
                </div>
-               <div class="col-md-7">
+               <div class="col-md-6">
                   <div class="top-menu">
                      <span class="menu"><img src="images/nav-icon.png" alt=""/></span>
                      <ul class="nav">
@@ -45,9 +45,9 @@
                      </ul>
                   </div>
                </div>
-               <div class="col-md-3">
+               <!-- <div class="col-md-3">
                   <h3><img src="images/phone_icon.jpg" alt="" height="50" /> (11) 99582-2259.</h3>
-               </div>
+               </div> -->
             </div>
             <div class="clearfix"></div>
          </div>
@@ -155,17 +155,20 @@
                   <div class="touch-top">
                      <div class="row">
                         <div class="col-md-8 touch-left">
-                           <form action="https://formspree.io/contato@osrc.com.br" method="POST">
-                              <input type="text" name="name" placeholder="Seu nome..." onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Seu nome...';}" required />
-                              <input type="text" name="email" placeholder="Seu e-mail..." onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Seu e-mail...';}" required />
-                              <textarea name="message" placeholder="Deixe sua mensagem que entraremos em contato..." onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Sua mensagem...';}" required></textarea>
-                              <input type="hidden" name="_subject" value="Nova mensagem de negocio!" />
-                              <input type="hidden" name="_language" value="pt" />
-                              <input type="hidden" name="_next" value="http://osrc.com.br/mail-success.html" />
-                              <input type="text" name="_gotcha" style="display:none">
-                              <input type="submit" value="Enviar">
-                           </form>
+                            <div class="mail-input">    
+                            <form action="https://formspree.io/contato@osrc.com.br" method="POST">
+                                   <input type="text" name="name" placeholder="Seu nome..." onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Seu nome...';}" required />
+                                   <input type="text" name="email" placeholder="Seu e-mail..." onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Seu e-mail...';}" required />
+                                   <textarea name="message" placeholder="Deixe sua mensagem que entraremos em contato..." onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Sua mensagem...';}" required></textarea>
+                                   <input type="hidden" name="_subject" value="Nova mensagem de negocio!" />
+                                   <input type="hidden" name="_language" value="pt" />
+                                   <input type="hidden" name="_next" value="http://osrc.com.br/mail-success.html" />
+                                   <input type="text" name="_gotcha" style="display:none">
+                                   <input type="submit" value="Enviar">
+                                </form>
+                             </div>
                         </div>
+                        
                         <div class="col-md-4 touch-right">
                            <div class="touch-right-top">
                               <span class="add"> </span>

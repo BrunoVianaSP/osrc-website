@@ -1477,3 +1477,7 @@ header.masthead .post-heading .meta a {
         font-size: 30px;
     }
 }
+
+.mail-input {
+    margin: 10px;
+}
