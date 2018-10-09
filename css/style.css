@@ -200,7 +200,11 @@ label {
 /*--customer--*/
 
 .customer {
-    padding: 5em 0;
+    padding: 3em 0;
+}
+
+.map {
+    padding: 3em 0;
 }
 
 .icon-pic {
@@ -1372,7 +1376,7 @@ hr {
     line-height: 0;
     clear: both;
     border: none;
-    border-top: 1px solid #3E5096;
+    border-top: 1px solid #6E76A7;
 }
 
 header.masthead {
