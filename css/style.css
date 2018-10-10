@@ -242,9 +242,8 @@ span.menu {
 }
 
 .banner-info h2 {
-    color: gray;
-    /* color: #7695E7; */
-    /* color: #7695E7; */
+    color: white;
+    font-weight:100;
     font-size: 3.5em;
     font-family: 'Dosis-Medium';
     align-self: center;
@@ -820,7 +819,7 @@ a i.youtube:hover {
         margin: 8em 0 0 0em;
     }
     .banner-info h2 {
-        font-size: 3em;
+        font-size: 3.5em;
     }
     .header {
         background: url(../images/banner.jpg) no-repeat 0px 0;
@@ -871,7 +870,7 @@ a i.youtube:hover {
         min-height: 430px;
     }
     .banner-info h2 {
-        font-size: 2.5em;
+        font-size: 3em;
     }
     .banner-info {
         margin: 9em 0 0 0em;
@@ -959,7 +958,7 @@ a i.youtube:hover {
         min-height: 400px;
     }
     .banner-info h2 {
-        font-size: 2.2em;
+        font-size: 2.7em;
     }
     .logo h1 a {
         font-size: 0.8em;
@@ -1466,7 +1465,7 @@ hr {
     border-top: 1px solid #6E76A7;
 }
 
-header.masthead {
+/* header.masthead {
     margin-bottom: 50px;
     background: no-repeat center center;
     background-color: #868e96;
@@ -1563,8 +1562,8 @@ header.masthead .post-heading .meta a {
     header.masthead .post-heading .subheading {
         font-size: 30px;
     }
-}
+} */
 
 .mail-input {
-    margin: 10px;
+    margin: 15px;
 }
