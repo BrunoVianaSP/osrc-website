@@ -51,7 +51,8 @@ body{
 	display: inline-block;
   color: #fff;
   font-family: 'Dosis-Medium';
-  font-size: 0.7em;
+  font-size: 0.6em;
+  font-weight: bold;
   text-decoration: none;
   background:#3E5096;
   border-radius: 50%;
@@ -60,7 +61,7 @@ body{
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border: 8px solid #fff;
-  padding: 52px 15px;
+  padding: 55px 15px;
   height: 160px;
   width: 160px;
 }
@@ -118,24 +119,6 @@ span.menu {
     left: 45%;
     top: -96%;
     z-index: 1;
-}
-
-.logo h1 a {
-    display: inline-block;
-    color: #fff;
-    font-family: 'Dosis-Medium';
-    font-size: 0.6em;
-    text-decoration: none;
-    background: #3E5096;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border: 8px solid #fff;
-    padding: 52px 15px;
-    height: 160px;
-    width: 160px;
 }
 
 span.menu {
@@ -889,7 +872,7 @@ a i.youtube:hover {
 
 @media (max-width: 800px) {
     .logo h1 a {
-        font-size: 0.3em;
+        font-size: 0.5em;
         padding: 39px 12px;
         height: 126px;
         width: 126px;
@@ -907,7 +890,7 @@ a i.youtube:hover {
         font-size: 2.7em;
     }
     .logo h1 a {
-        font-size: 0.8em;
+        font-size: 0.5em;
         padding: 39px 12px;
         height: 126px;
         width: 126px;
@@ -1178,7 +1161,7 @@ a i.youtube:hover {
         padding: 0.7em 0;
     }
     .logo h1 a {
-        font-size: 0.4em;
+        font-size: 0.35em;
         padding: 27px 9px;
         border: 5px solid #fff;
         height: 90px;
@@ -1256,6 +1239,13 @@ a i.youtube:hover {
     }
     .banner-info {
         width: 65%;
+    }
+    .logo h1 a {
+        font-size: 0.2em;
+        padding: 28px 9px;
+        border: 5px solid #fff;
+        height: 90px;
+        width: 90px;
     }
 }
 
