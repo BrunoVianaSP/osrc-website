@@ -47,8 +47,8 @@ body{
   top: -96%;
   z-index: 1;
 }
-.logo h1 a {
-	display: inline-block;
+/* .logo h1 a {
+  display: inline-block;
   color: #fff;
   font-family: 'Dosis-Medium';
   font-size: 0.6em;
@@ -64,7 +64,28 @@ body{
   padding: 55px 15px;
   height: 160px;
   width: 160px;
+} */
+.logo h1 a {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Dosis-Medium';
+    font-size: 0.6em;
+    font-weight: bold;
+    text-decoration: none;
+    background:#3E5096;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 8px solid #fff;
+    padding: 55px 15px;
+    margin-top: 50px;
+    margin-left: 15px;
+    height: 160px;
+    width: 160px;
 }
+
 span.menu {
   display: none;
 }
@@ -94,14 +115,13 @@ span.menu {
   margin-right: 13em;
 }
 
-.nav {
+/* .nav {
     border: 1px solid #3E5096;
     border-width: 1px 0;
     list-style: none;
     padding: 0;
     text-align: center;
     display: table;
-    /* Allow the centering to work */
     margin: 0 auto;
 }
 
@@ -112,7 +132,7 @@ span.menu {
 .nav a {
     display: inline-block;
     padding: 5px;
-}
+} */
 
 .logo {
     position: absolute;
@@ -600,21 +620,29 @@ a.blogs:hover {
 }
 
 .touch-right-top span.add {
-    background-position: 0px 0px;
+    background: url(../images/location_icon.png) no-repeat;
+    /* background-position: 0px 0px; */
+    background-position: center;
 }
 
 .touch-right-top span.mail {
-    background-position: -35px 0px;
+    background: url(../images/email_icon.png) no-repeat;
+    /* background-position: -35px 0px; */
+    background-position: center;
 }
 
 .touch-right-top span.num {
-    background-position: -70px 0px;
+    background: url(../images/mobile_icon.png) no-repeat;
+    /* background-position: -70px 0px; */
+    background-position: center;
 }
 
 .touch-right-top span {
-    background: url(../images/contact.png) no-repeat;
-    width: 35px;
-    height: 46px;
+    /* background: url(../images/location_icon.png) no-repeat; */
+    /* width: 35px;
+    height: 46px; */
+    width: 100px;
+    height: 100px;
     display: block;
     margin: 0 auto;
 }
@@ -734,6 +762,30 @@ a i.youtube:hover {
         background: url(../images/img22.jpg) no-repeat 0px -77px;
         min-height: 332px;
         background-size: cover;
+    }
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0px;
+    }
+
+    .logo h1 a {
+        display: inline-block;
+        color: #fff;
+        font-family: 'Dosis-Medium';
+        font-size: 0.6em;
+        font-weight: bold;
+        text-decoration: none;
+        background:#3E5096;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border: 8px solid #fff;
+        padding: 55px 15px;
+        margin-top: 50px;
+        margin-left: 15px;
+        height: 160px;
+        width: 160px;
     }
 }
 
