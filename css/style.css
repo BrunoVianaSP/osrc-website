@@ -754,6 +754,27 @@ a i.youtube:hover {
     filter: alpha(opacity=0);
 }
 
+.logo h1 a {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Dosis-Medium';
+    font-size: 0.7em;
+    font-weight: bold;
+    text-decoration: none;
+    background:#3E5096;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 8px solid #fff;
+    padding: 65px 10px;
+    margin-top: 80px;
+    margin-left: -15px;
+    height: 170px;
+    width: 170px;
+}
+
 
 /*--responsive--*/
 
@@ -771,21 +792,12 @@ a i.youtube:hover {
         display: inline-block;
         color: #fff;
         font-family: 'Dosis-Medium';
-        font-size: 0.6em;
-        font-weight: bold;
-        text-decoration: none;
-        background:#3E5096;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-        border: 8px solid #fff;
-        padding: 55px 15px;
-        margin-top: 70px;
-        margin-left: 15px;
-        height: 160px;
-        width: 160px;
+        font-size: 0.7em;
+        padding: 65px 15px;
+        margin-top: 80px;
+        margin-left: 15spx;
+        height: 170px;
+        width: 170px;
     }
 }
 
@@ -808,31 +820,14 @@ a i.youtube:hover {
         min-height: 494px;
     }
     .logo h1 a {
-        display: inline-block;
-        color: #fff;
-        font-family: 'Dosis-Medium';
         font-size: 0.6em;
-        font-weight: bold;
-        text-decoration: none;
-        background:#3E5096;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-        border: 8px solid #fff;
-        padding: 55px 15px;
         margin-top: 70px;
         margin-left: 15px;
-        height: 160px;
-        width: 160px;
+        position: absolute;
     }
 }
 
 @media (max-width: 1024px) {
-    .top-menu ul li:nth-child(3) {
-        margin-right: 11em;
-    }
     .banner-info {
         margin: 8em 0 0 0em;
     }
@@ -860,6 +855,25 @@ a i.youtube:hover {
     }
     .touch-left form input[type="text"]:nth-child(1) {
         margin-right: 19px;
+    }
+
+    .top-menu ul li a {
+        padding: 0 1em;
+    }
+
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0em;
+    }
+    .logo h1 a {
+        font-size: 0.6em;
+        font-weight: bold;
+        border: 8px solid #fff;
+        padding: 55px 15px;
+        margin-top: 70px;
+        margin-left: 15px;
+        height: 160px;
+        width: 160px;
+        position: absolute;
     }
 }
 
@@ -940,15 +954,35 @@ a i.youtube:hover {
     .blog-grid p {
         font-size: 0.9em;
     }
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0em;
+    }
+    .logo h1 a {
+        font-size: 0.6em;
+        font-weight: bold;
+        border: 8px solid #fff;
+        padding: 55px 15px;
+        margin-top: 70px;
+        margin-left: 15px;
+        height: 160px;
+        width: 160px;
+        position: absolute;
+    }
 }
 
 @media (max-width: 800px) {
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0em;
+    }
     .logo h1 a {
         font-size: 0.5em;
         padding: 39px 12px;
         height: 126px;
         width: 126px;
+        margin-top: 70px;
+        margin-left: 15px;
         background-color: #3E5096;
+        position: absolute;
     }
 }
 
@@ -1016,11 +1050,125 @@ a i.youtube:hover {
     .arrow {
         padding: 1em 0 0.5em 0;
     }
+    
+    span.menu {
+        display: block;
+        text-align: right;
+        cursor: pointer;
+        position: relative;
+        padding: 1em 0;
+    }
+    .top-menu span img {
+        display: inline-block;
+    }
+    .top-menu {
+        width: 100%;
+        float: right;
+    }
+    .top-menu ul {
+        display: none;
+    }
+    .top-menu ul li {
+        font-size: 12px;
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+    }
+    .top-menu ul {
+        margin: 0;
+        z-index: 999;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        left: 0%;
+        background: #fff;
+    }
+    .top-menu ul li a {
+        padding: 0.4em 0em;
+        display: block;
+        font-size: 1.4em;
+    }
+    .top-header {
+        margin: 1em 0;
+    }
+    .header {
+        min-height: 350px;
+    }
+    .logo {
+        left: 42%;
+    }
+    .logo h1 a {
+        font-size: 0.4em;
+        padding: 31px 8px;
+        border: 6px solid #fff;
+        margin-top: 10px;
+        margin-left: 15px;
+        height: 100px;
+        width: 100px;
+    }
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 736px) {
+    span.menu {
+        display: block;
+        text-align: right;
+        cursor: pointer;
+        position: relative;
+        padding: 1em 0;
+    }
+    .top-menu span img {
+        display: inline-block;
+    }
+    .top-menu {
+        width: 100%;
+        float: right;
+    }
+    .top-menu ul {
+        display: none;
+    }
+    .top-menu ul li {
+        font-size: 12px;
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+    }
+    .top-menu ul {
+        margin: 0;
+        z-index: 999;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        left: 0%;
+        background: #fff;
+    }
+    .top-menu ul li a {
+        padding: 0.4em 0em;
+        display: block;
+        font-size: 1.4em;
+    }
+    .top-header {
+        margin: 1em 0;
+    }
+    .header {
+        min-height: 350px;
+    }
+    .logo {
+        left: 42%;
+    }
+    .logo h1 a {
+        font-size: 0.4em;
+        padding: 31px 8px;
+        border: 6px solid #fff;
+        margin-top: 10px;
+        margin-left: 15px;
+        height: 100px;
+        width: 100px;
+    }
     .top-menu ul li:nth-child(3) {
-        margin-right: 10em;
+        margin-right: 0;
     }
 }
 
@@ -1075,6 +1223,8 @@ a i.youtube:hover {
         font-size: 0.4em;
         padding: 31px 8px;
         border: 6px solid #fff;
+        margin-top: 10px;
+        margin-left: 15px;
         height: 100px;
         width: 100px;
     }
@@ -1226,19 +1376,20 @@ a i.youtube:hover {
     .top-menu ul li:nth-child(3) {
         margin-right: 0;
     }
+    .logo h1 a {
+        font-size: 0.35em;
+        padding: 31px 8px;
+        border: 6px solid #fff;
+        margin-top: 10px;
+        margin-left: 15px;
+        height: 100px;
+        width: 100px;
+    }
 }
 
 @media(max-width:480px) {
     span.menu {
         padding: 0.7em 0;
-    }
-    .logo h1 a {
-        font-size: 0.35em;
-        padding: 27px 9px;
-        border: 5px solid #fff;
-        height: 90px;
-        width: 90px;
-        margin-left: 0px;
     }
     .header {
         background: url(../images/banner.jpg) no-repeat -75px 0px;
@@ -1292,6 +1443,15 @@ a i.youtube:hover {
     .touch-right-top h4 {
         letter-spacing: 0px;
     }
+    .logo h1 a {
+        font-size: 0.35em;
+        padding: 27px 9px;
+        border: 5px solid #fff;
+        height: 90px;
+        width: 90px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
 }
 
 @media(max-width:414px) {
@@ -1301,6 +1461,15 @@ a i.youtube:hover {
     }
     .banner-info {
         width: 59%;
+    }
+    .logo h1 a {
+        font-size: 0.3em;
+        padding: 27px 9px;
+        border: 5px solid #fff;
+        height: 90px;
+        width: 90px;
+        margin-top: 10px;
+        margin-left: 0px;
     }
 }
 
@@ -1319,6 +1488,7 @@ a i.youtube:hover {
         border: 3px solid #fff;
         height: 90px;
         width: 90px;
+        margin-top: 10px;
         margin-left: 0px;
     }
 }
@@ -1422,6 +1592,7 @@ a i.youtube:hover {
         border: 2px solid #fff;
         height: 90px;
         width: 90px;
+        margin-top: 10px;
         margin-left: 0px;
     }
 }
