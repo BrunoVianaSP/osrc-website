@@ -1444,8 +1444,8 @@ a i.youtube:hover {
         letter-spacing: 0px;
     }
     .logo h1 a {
-        font-size: 0.35em;
-        padding: 27px 9px;
+        font-size: 0.36em;
+        padding: 33px 7px;
         border: 5px solid #fff;
         height: 90px;
         width: 90px;
@@ -1464,7 +1464,7 @@ a i.youtube:hover {
     }
     .logo h1 a {
         font-size: 0.3em;
-        padding: 27px 9px;
+        padding: 33px 7px;
         border: 5px solid #fff;
         height: 90px;
         width: 90px;
@@ -1483,9 +1483,9 @@ a i.youtube:hover {
         width: 65%;
     }
     .logo h1 a {
-        font-size: 0.2em;
-        padding: 40px 15px;
-        border: 3px solid #fff;
+        font-size: 0.25em; 
+        padding: 33px 7px;
+        border: 5px solid #fff;
         height: 90px;
         width: 90px;
         margin-top: 10px;
@@ -1587,9 +1587,9 @@ a i.youtube:hover {
         height: 120px;
     }
     .logo h1 a {
-        font-size: 0.2em;
-        padding: 45px 15px;
-        border: 2px solid #fff;
+        font-size: 0.2em; 
+        padding: 33px 7px;
+        border: 5px solid #fff;
         height: 90px;
         width: 90px;
         margin-top: 10px;
