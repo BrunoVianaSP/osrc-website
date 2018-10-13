@@ -5,6 +5,20 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+:root {
+    --main-color:#3E5096;
+    --main-hover-color:#3598db;
+    --main-title-color:#3E5096;
+    --main-subtitle-color:red;
+    --main-text-color:orange;
+    --logo-text-color:white;
+    --title-font-family: 'Dosis-Medium';
+}
+
+
+
+
+
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -315,6 +329,31 @@ label {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--company--*/
 
 .company {
@@ -371,6 +410,25 @@ label {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----*/
 
 .catalog {
@@ -388,6 +446,30 @@ label {
 .catalog-info {
     margin-top: 2.5em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*----- Strip -----*/
@@ -486,6 +568,34 @@ img.img-responsive.glry-img {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----*/
 
 .blog {
@@ -538,6 +648,47 @@ a.blogs:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--map--*/
 
 .map iframe {
@@ -545,6 +696,29 @@ a.blogs:hover {
     min-height: 400px;
     margin: 2.5em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*--contact--*/
@@ -670,7 +844,32 @@ a.blogs:hover {
 }
 
 
-/*----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
 
 .footer {
     text-align: center;
@@ -791,30 +990,150 @@ a i.youtube:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--responsive--*/
 
 @media (max-width: 1280px) {
-    .company-left {
-        background: url(../images/img22.jpg) no-repeat 0px -77px;
-        min-height: 332px;
-        background-size: cover;
-    }
-    .top-menu ul li:nth-child(3) {
-        margin-right: 0px;
-    }
 
-    .logo h1 a {
-        display: inline-block;
-        color: #fff;
-        font-family: 'Dosis-Medium';
-        font-size: 0.7em;
-        padding: 65px 15px;
-        margin-top: 80px;
-        margin-left: 15spx;
-        height: 170px;
-        width: 170px;
-    }
+    /* MENU  DESKTOP*/
+.top-header {
+    margin: 1em 0;
+    text-align: center;
+    position: relative;
 }
+.top-menu{
+	position: relative;
+}
+.top-menu ul li {
+    display: inline-block;
+  }
+.top-menu ul li a {
+  font-size: 1.5em;
+  color: var(--main-color);
+  padding: 0 1.5em;
+  margin: 0 0.5em;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--title-font-family);
+}
+.top-menu ul li a:hover{
+	color:var(--main-hover-color);
+}
+
+.top-menu ul li:nth-child(3) {
+    margin-right: 0;
+} 
+/* span.menu {
+    display: none;
+} */
+/* MENU  DESKTOP*/
+
+/* MENU  DESKTOP LOGO */
+.logo {
+    position: absolute;
+    left: 40%;
+    top: -95%;
+    z-index: 1;
+    margin-left: -15px;
+}
+
+.logo h1 a {
+    display: inline-block;
+    color: var(--logo-text-color);
+    font-family: var(--title-font-family);
+    font-size: 0.7em;
+    text-decoration: none;
+    background:#3E5096;
+    border: 8px solid #fff;
+    padding: 55px 15px;
+    margin-top: 50px;
+    margin-left: 15px;
+    height: 160px;
+    width: 160px;
+}
+/* MENU  DESKTOP LOGO */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1880px) {
     .top-menu ul li:nth-child(3) {
