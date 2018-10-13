@@ -465,13 +465,15 @@ label {
 
 .footer {
     text-align: center;
-    background: #000;
+    background: var(--main-color);
     padding: 3em 0 1em 0;
 }
 
 .footer p {
     color: #fff;
     font-size: 1em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
 }
 
 .footer p a {
