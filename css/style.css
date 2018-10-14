@@ -1089,7 +1089,7 @@ span.menu {
 .top-menu ul li a {
   font-size: 1.6em;
   color: var(--main-color);
-  padding: 0 1.5em;
+  padding: 0 0.5em;
   margin: 0 0.5em;
   text-decoration: none;
   font-weight: bold;
@@ -1115,7 +1115,6 @@ span.menu {
     margin-left: 30px;
     margin-top: 40px;
 }
-
 .logo h1 a {
     display: inline-block;
     color: var(--logo-text-color);
@@ -1130,86 +1129,14 @@ span.menu {
     height: 160px;
     width: 160px;
 }
-/* MENU  DESKTOP LOGO */
-    /* .top-menu ul li:nth-child(3) {
-        margin-right: 0px;
-    }
-    .logo {
-        left: 42%;
-    }
-    .banner-info {
-        margin: 8em 0 0 0em;
-    }
-    .banner-info h2 {
-        font-size: 3.5em;
-    }
-    .header {
-        background: url(../images/banner.jpg) no-repeat 0px 0;
-        background-size: cover;
-        min-height: 494px;
-    }
-    .logo h1 a {
-        font-size: 0.6em;
-        margin-top: 70px;
-        margin-left: 15px;
-        position: absolute;
-    } */
+ /* MENU  DESKTOP LOGO */
 }
 
 @media (max-width: 1024px) {
-    .banner-info {
-        margin: 8em 0 0 0em;
-    }
-    .banner-info h2 {
-        font-size: 3em;
-    }
-    .header {
-        min-height: 483px;
-    }
-    .logo {
-        left: 43%;
-    }
-    .company-right h4 {
-        font-size: 1.6em;
-    }
-    .company-left {
-        background: url(../images/img22.jpg) no-repeat 0px -2px;
-        min-height: 364px;
-        background-size: cover;
-        width: 52.2%;
-    }
     .company-right {
-        width: 47.8%;
+        width: 100%;
         padding: 0em 2em;
     }
-    .touch-left form input[type="text"]:nth-child(1) {
-        margin-right: 19px;
-    }
-
-    .top-menu ul li a {
-        padding: 0 1em;
-    }
-
-    .top-menu ul li:nth-child(3) {
-        margin-right: 0em;
-    }
-    .logo h1 a {
-        font-size: 0.6em;
-        font-weight: bold;
-        border: 8px solid #fff;
-        padding: 55px 15px;
-        margin-top: 70px;
-        margin-left: 15px;
-        height: 160px;
-        width: 160px;
-        position: absolute;
-    }
-}
-
-@media (max-width: 991px) {
-    /* .top-menu ul li:nth-child(3) {
-        margin-right: 12em;
-    } */
     .header {
         min-height: 430px;
     }
@@ -1231,7 +1158,147 @@ span.menu {
         font-size: 1em;
         margin-top: 1.5em;
     }
+
+    .top-header {
+        margin: 1.3em 0;
+        text-align: center;
+        position: relative;
+    }
+    .top-menu{
+        position: relative;
+    }
+    .top-menu ul li {
+        display: inline-block;
+      }
     .top-menu ul li a {
+      font-size: 1.6em;
+      color: var(--main-color);
+      padding: 0 0.5em;
+      margin: 0 0.2em;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: var(--title-font-family);
+    }
+    .top-menu ul li a:hover{
+        color:var(--main-hover-color);
+    }
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0;
+    } 
+    span.menu {
+        display: none;
+    }
+    /* MENU  DESKTOP*/
+    
+    /* MENU  DESKTOP LOGO */
+    .logo {
+        position: absolute;
+        left: 40%;
+        top: -130%;
+        z-index: -1;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .logo h1 a {
+        display: inline-block;
+        color: var(--logo-text-color);
+        font-family: var(--title-font-family);
+        font-size: 0.6em;
+        text-decoration: none;
+        background:var(--main-color);
+        border: 8px solid #fff;
+        padding: 55px 8px;
+        margin-top: 50px;
+        margin-left: 15px;
+        height: 145px;
+        width: 145px;
+    }
+    
+}
+
+@media (max-width: 991px) {
+ 
+    .header {
+        min-height: 430px;
+    }
+    .banner-info h2 {
+        font-size: 3em;
+    }
+    .banner-info {
+        margin: 9em 0 0 0em;
+        padding: 0 0px 0 79px;
+        width: 58%;
+    }
+    .banner-info p {
+        font-size: 0.9em;
+        line-height: 1.6em;
+        margin-top: 1.5em;
+    }
+    .banner-info a {
+        padding: 0.7em 3em;
+        font-size: 1em;
+        margin-top: 1.5em;
+    }
+        /* MENU  DESKTOP*/
+.top-header {
+    margin: 1.3em 0;
+    text-align: center;
+    position: relative;
+}
+.top-menu{
+    position: relative;
+}
+.top-menu ul li {
+    display: inline-block;
+  }
+.top-menu ul li a {
+  font-size: 1.6em;
+  color: var(--main-color);
+  padding: 0 0.5em;
+  margin: 0 0.2em;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--title-font-family);
+}
+.top-menu ul li a:hover{
+	color:var(--main-hover-color);
+}
+.top-menu ul li:nth-child(3) {
+    margin-right: 0;
+} 
+span.menu {
+    display: none;
+}
+/* MENU  DESKTOP*/
+
+/* MENU  DESKTOP LOGO */
+.logo {
+    position: absolute;
+    left: 40%;
+    top: -130%;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.logo h1 a {
+    display: inline-block;
+    color: var(--logo-text-color);
+    font-family: var(--title-font-family);
+    font-size: 0.6em;
+    text-decoration: none;
+    background:var(--main-color);
+    border: 8px solid #fff;
+    padding: 55px 8px;
+    margin-top: 50px;
+    margin-left: 15px;
+    height: 145px;
+    width: 145px;
+}
+
+ 
+
+ /* MENU  DESKTOP LOGO */
+    /* .top-menu ul li a {
         padding: 0 1em;
     }
     .icon-pic {
@@ -1296,7 +1363,7 @@ span.menu {
         height: 160px;
         width: 160px;
         position: absolute;
-    }
+    } */
 }
 
 @media (max-width: 800px) {
@@ -1441,9 +1508,6 @@ company-right h3 {
     display: inline-block;
 }
 /*COMPANY TEXTS*/
-
-
-
 }
 
 @media (max-width: 736px) {
@@ -1773,7 +1837,6 @@ company-right h3 {
     .touch-right-top h4 {
         letter-spacing: 0px;
     }
-    
     .logo {
         left: 30%;
         top: -100px;
