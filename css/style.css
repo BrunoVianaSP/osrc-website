@@ -1864,14 +1864,22 @@ company-right h3 {
     .banner-info {
         width: 59%;
     }
+    .logo {
+        left: 30%;
+        top: -100px;
+        z-index: 1;
+    }
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0;
+    }
     .logo h1 a {
-        font-size: 0.3em;
-        padding: 33px 7px;
-        border: 5px solid #fff;
-        height: 90px;
-        width: 90px;
-        margin-top: 10px;
-        margin-left: 0px;
+        font-size: 0.37em;
+        padding: 31px 8px;
+        border: 1px solid #fff;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 100px;
+        width: 100px;
     }
 }
 
@@ -1884,14 +1892,22 @@ company-right h3 {
     .banner-info {
         width: 65%;
     }
+    .logo {
+        left: 30%;
+        top: -100px;
+        z-index: 1;
+    }
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0;
+    }
     .logo h1 a {
-        font-size: 0.25em; 
-        padding: 33px 7px;
-        border: 5px solid #fff;
-        height: 90px;
-        width: 90px;
-        margin-top: 10px;
-        margin-left: 0px;
+        font-size: 0.37em;
+        padding: 31px 8px;
+        border: 1px solid #fff;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 100px;
+        width: 100px;
     }
 }
 
@@ -1988,14 +2004,22 @@ company-right h3 {
     .touch-left form textarea {
         height: 120px;
     }
+    .logo {
+        left: 30%;
+        top: -100px;
+        z-index: 1;
+    }
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0;
+    }
     .logo h1 a {
-        font-size: 0.2em; 
-        padding: 33px 7px;
-        border: 5px solid #fff;
-        height: 90px;
-        width: 90px;
-        margin-top: 10px;
-        margin-left: 0px;
+        font-size: 0.37em;
+        padding: 31px 8px;
+        border: 1px solid #fff;
+        margin-top: 15px;
+        margin-left: 15px;
+        height: 100px;
+        width: 100px;
     }
 }
 
