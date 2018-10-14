@@ -1846,10 +1846,10 @@ company-right h3 {
         margin-right: 0;
     }
     .logo h1 a {
-        font-size: 0.35em;
+        font-size: 0.37em;
         padding: 31px 8px;
-        border: 6px solid #fff;
-        margin-top: 10px;
+        border: 1px solid #fff;
+        margin-top: 15px;
         margin-left: 15px;
         height: 100px;
         width: 100px;
