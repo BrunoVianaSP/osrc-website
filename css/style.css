@@ -646,47 +646,6 @@ a.socialIcon:hover, .socialHoverClass {
 
 
 
-/* a i.facebook {
-    background-position: -3px -2px;
-}
-
-a i.twitter {
-    background-position: -43px -3px;
-}
-
-a i.dribble {
-    background-position: -83px -3px;
-}
-
-a i.google {
-    background-position: -126px -2px
-}
-
-a i.youtube {
-    background-position: -167px -3px;
-}
-
-a i.facebook:hover {
-    background-position: -3px -36px;
-}
-
-a i.twitter:hover {
-    background-position: -43px -36px;
-}
-
-a i.dribble:hover {
-    background-position: -83px -36px;
-}
-
-a i.google:hover {
-    background-position: -126px -36px
-}
-
-a i.youtube:hover {
-    background-position: -167px -36px;
-} */
-
-
 
 /*FOOTER*/
 
@@ -1115,7 +1074,64 @@ span.menu {
 
 
 @media (max-width: 1880px) {
-    .top-menu ul li:nth-child(3) {
+    /* MENU  DESKTOP*/
+.top-header {
+    margin: 1.3em 0;
+    text-align: center;
+    position: relative;
+}
+.top-menu{
+    position: relative;
+}
+.top-menu ul li {
+    display: inline-block;
+  }
+.top-menu ul li a {
+  font-size: 1.6em;
+  color: var(--main-color);
+  padding: 0 1.5em;
+  margin: 0 0.5em;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--title-font-family);
+}
+.top-menu ul li a:hover{
+	color:var(--main-hover-color);
+}
+.top-menu ul li:nth-child(3) {
+    margin-right: 0;
+} 
+span.menu {
+    display: none;
+}
+/* MENU  DESKTOP*/
+
+/* MENU  DESKTOP LOGO */
+.logo {
+    position: absolute;
+    left: 40%;
+    top: -95%;
+    z-index: -1;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.logo h1 a {
+    display: inline-block;
+    color: var(--logo-text-color);
+    font-family: var(--title-font-family);
+    font-size: 0.7em;
+    text-decoration: none;
+    background:var(--main-color);
+    border: 8px solid #fff;
+    padding: 55px 8px;
+    margin-top: 50px;
+    margin-left: 15px;
+    height: 160px;
+    width: 160px;
+}
+/* MENU  DESKTOP LOGO */
+    /* .top-menu ul li:nth-child(3) {
         margin-right: 0px;
     }
     .logo {
@@ -1137,7 +1153,7 @@ span.menu {
         margin-top: 70px;
         margin-left: 15px;
         position: absolute;
-    }
+    } */
 }
 
 @media (max-width: 1024px) {
@@ -1597,16 +1613,23 @@ company-right h3 {
         min-height: 350px;
     }
     .logo {
-        left: 42%;
-        top: 0;
+        left: 30%;
+        top: -10px;
+        z-index: 1;
+    }
+    .top-menu ul li:nth-child(3) {
+        margin-right: 0;
     }
     .logo h1 a {
-        font-size: 0.4em;
+        font-size: 0.35em;
         padding: 31px 8px;
         border: 6px solid #fff;
+        margin-top: 10px;
+        margin-left: 15px;
         height: 100px;
         width: 100px;
     }
+
     .banner-info h2 {
         font-size: 2em;
     }
@@ -1691,18 +1714,6 @@ company-right h3 {
     }
     .footer {
         padding: 2em 0 1em 0;
-    }
-    .top-menu ul li:nth-child(3) {
-        margin-right: 0;
-    }
-    .logo h1 a {
-        font-size: 0.35em;
-        padding: 31px 8px;
-        border: 6px solid #fff;
-        margin-top: 10px;
-        margin-left: 15px;
-        height: 100px;
-        width: 100px;
     }
 }
 
